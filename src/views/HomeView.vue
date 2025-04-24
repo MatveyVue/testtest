@@ -1,5 +1,5 @@
 <template> 
-<h1 style="margin-top: 150px;" class="colls">Stickers collections</h1> 
+<h1 style="margin-top: 120px;" class="colls">Stickers collections</h1> 
 <RouterLink to="Pack"> 
     <p class="see">See All</p> 
 </RouterLink> 
