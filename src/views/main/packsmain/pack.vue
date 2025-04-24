@@ -6,7 +6,7 @@
     <p class="avtor">{{ person.avtor }}</p>
 </RouterLink>
 <div style="margin-top: -5px;" v-for="(person, index) in pack1" :key="index">
-    <button class="starsbtn"><img class="star" src="/src/components/Stars.png"><p class="starcol">{{ person.stars }}</p></button>
+    <button class="starsbtn"><img class="star" src="/src/components/Stars.png"><p class="starcol"><b>{{ person.stars }}</b></p></button>
 </div>
 <div class="contstick" style="display: flex">
     <div class="stickback">
@@ -29,7 +29,7 @@
     <p class="avtor">{{ person.avtor }}</p>
 </RouterLink>
 <div style="margin-top: -5px;" v-for="(person, index) in pack1" :key="index">
-    <button class="starsbtn"><img class="star" src="/src/components/Stars.png"><p class="starcol">{{ person.stars }}</p></button>
+    <button class="starsbtn"><img class="star" src="/src/components/Stars.png"><p class="starcol"><b>{{ person.stars }}</b></p></button>
 </div>
 <div class="contstick" style="display: flex">
     <div class="stickback">
