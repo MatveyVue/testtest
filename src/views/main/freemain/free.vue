@@ -13,7 +13,7 @@
         <img class="freeicon" :src="person.icon" alt="Banner" v-if="person.icon">
         <p class="freenick"><b>{{ person.nick }}</b></p>
         <p class="coll">{{ person.coll }}</p>
-        <button class="open"><b>OPEN</b></button>
+        <button class="open">OPEN</button>
     </div>
 </div>
 </template>
