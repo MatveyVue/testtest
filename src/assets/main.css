@@ -1,0 +1,235 @@
+body {
+    background-color: rgb(39, 39, 39);
+    touch-action: 0;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: none;
+}
+
+.colls {
+    font-family: Roboto;
+    color: white;
+    font-size: 28px;
+}
+
+.see {
+    font-family: Roboto;
+    color: rgb(47, 126, 196);
+    text-decoration: none;
+    font-size: 22px;
+    float: right;
+    margin-top: -50px;
+}
+
+.banners {
+    display: flex; 
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+  
+.ankets {
+    margin-right: 10px;
+    flex-shrink: 0; 
+}
+  
+.banner {
+    width: 95vw;
+    height: 200px;
+    border-radius: 25px;
+    margin-left: -44px;
+    min-width: 300px;
+}
+
+.icon {
+    width: 34px;
+    height: 35px;
+    float: left;
+    margin-top: 220px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.nick {
+    font-family: Roboto;
+    color: white;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.free {
+    font-family: Roboto;
+    color: white;
+    font-size: 28px;
+}
+
+.freeicon {
+    width: 78px;
+    height: 74px;
+    border-radius: 20px;
+}
+
+.freenick {
+    font-family: Roboto;
+    color: white;
+    font-size: 22px;
+    margin-left: 95px;
+    margin-top: -62px;
+}
+
+.coll {
+    font-family: Roboto;
+    color: rgb(104, 104, 104);
+    font-size: 14px;
+    margin-left: 95px;
+    margin-top: -20px;
+}
+
+.open {
+    background-color: rgb(63, 63, 63);
+    border: none;
+    border-radius: 25px;
+    width: 70px;
+    height: 28px;
+    font-family: Roboto;
+    color: rgb(36, 133, 218);
+    font-size: 17px;
+    float: right;
+    margin-top: -53px;
+}
+
+.namestick {
+    font-family: Roboto;
+    color: white;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.avtor {
+    font-family: Roboto;
+    color: white;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 3px
+}
+
+.stickback {
+    background-color: rgb(63, 63, 63);
+    width: 35%;
+    height: 120px;
+    border-radius: 25px;
+    margin-left: 5px;
+    max-width: 150px;
+}
+
+.contstick {
+    display: flex;
+}
+
+.stick1 {
+    width: 120px;
+}
+
+.bar {
+    background-color: rgb(54, 54, 54);
+    width: 105%;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    margin-left: -10px;
+    margin-bottom: -2px;
+    border: 0.5px solid grey;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.stickbtn {
+    background-color: rgb(54, 54, 54);
+    border: none;
+    width: 33%;
+    height: 90px;
+    font-family: Roboto;
+    font-size: 15px; 
+    color: rgb(36, 133, 218);
+    margin-top: 10px;
+}
+
+.mrkbtn {
+    background-color: rgb(54, 54, 54);
+    border: none;
+    width: 33%;
+    height: 90px;
+    font-family: Roboto;
+    font-size: 15px; 
+    color: rgb(43, 43, 43);
+}
+
+.prfbtn {
+    background-color: rgb(54, 54, 54);
+    border: none;
+    width: 33%;
+    height: 90px;
+    font-family: Roboto; 
+    font-size: 15px;
+    color: rgb(43, 43, 43);
+}
+
+.stickimg {
+    width: 30px;
+    position: absolute;
+    margin-left: 13vw;
+    margin-top: 10px;
+}
+
+.mrkimg {
+    width: 35px;
+    position: absolute;
+    margin-left: 13vw;
+    margin-top: 10px;
+}
+
+.prfimg {
+    width: 35px;
+    position: absolute;
+    margin-left: 13vw;
+    margin-top: 10px; 
+}
+
+.starsbtn {
+    background-color: rgb(85, 69, 38);
+    border: none;
+    width: 70px;
+    height: 30px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 25px;
+    font-family: Roboto;
+    color: rgb(235, 205, 37);
+    margin-right: -5px;
+}
+
+.starcol {
+    margin-top: -24px;
+    margin-left: -25px;
+    font-size: 16px;
+}
+
+.star {
+    width: 25px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+.bannersee {
+    width: 40%;
+    height: 160px;
+    border-radius: 20px;
+}
+
+.bannerscont {
+    justify-content: space-between;
+    display: flex; 
+}
