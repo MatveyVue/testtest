@@ -1,5 +1,5 @@
 <template>
-<div style="margin-top: 150px;" v-for="(person, index) in pack1" :key="index">
+<div style="margin-top: 120px;" v-for="(person, index) in pack1" :key="index">
   <h3 class="name">{{ person.name }}</h3>
   <p class="avtor">{{ person.avtor }}</p>
   <p class="info">{{ person.info }}</p>
