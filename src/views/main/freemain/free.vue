@@ -4,7 +4,7 @@
         <img class="freeicon" :src="person.icon" alt="Banner" v-if="person.icon">
         <p class="freenick"><b>{{ person.nick }}</b></p>
         <p class="coll">{{ person.coll }}</p>
-        <button class="open"><b style="margin-left: -5px;">OPEN</b></button>
+        <button class="open"><b style="margin-left: -4px;">OPEN</b></button>
     </div>
 </div>
 
@@ -13,7 +13,7 @@
         <img class="freeicon" :src="person.icon" alt="Banner" v-if="person.icon">
         <p class="freenick"><b>{{ person.nick }}</b></p>
         <p class="coll">{{ person.coll }}</p>
-        <button class="open"><b style="margin-left: -5px;">OPEN</b></button>
+        <button class="open"><b style="margin-left: -4px;">OPEN</b></button>
     </div>
 </div>
 </template>
